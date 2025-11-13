@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 150px;
+    background-color: rgb(173, 216, 230);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 150px;
+    width:160px;
+}
+.logo{
+    background-image: url( joeyshop_logo.jpg);
+    height: 150px;
+    width:100%;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-first{
+    color:lightblue;
+    font-size:0.85rem;
+    margin-left: 3px;
+
+
+}
+.add-sec{
+font-size: 1rem;;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:lightblue;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border:double lightskyblue;
+}
+.search-select{
+    background-color: lightblue;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size:  1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 35px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height:40px;
+    background-color:lightseagreen ;
+    display: flex;
+    color:black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navigation a{
+    display: inline;
+    margin-left: 15px;
+    text-decoration: none;
+    
+
+
+}
+.navigation {
+    width:70%;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-right: 20px;
+    
+    
+}
+
+main{
+    margin: 10px;
+}
+
+.pet_ad{
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    background-color: lightblue;
+}
+.pet_ad img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    display: block;
+     background-color: lightseagreen;
+    color: white;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin: 20px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.list p{
+    color: white;
+    height: 50px
+ }
+
+ .panel_2{
+    text-align: center;
+ }
+
+footer hr{
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.product{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.content{
+    width: 18%;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.content img{
+    max-width: 80%;
+    height: 50%;
+    padding: 25px;
+}
+
+.content h2,p{
+    margin: 0;
+    font-family: 'Calibri';
+}
+
+.content button{
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.content button:hover{
+    background-color: white;
+    color: black;
+}
+
+.price{
+    font-size: 1.2rem;
+    color: red;
+    margin: 5px;
+}
+
+.qtn{
+    color: grey;
+    margin: 5px;
+}
+
+@media (max-width:800px)
+{
+.panel{
+    background-color: pink;
+}
+
+
+.pet_ad{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+.pet_ad img{
+   width: 100%;
+   height: auto;
+}
+
+.product{
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .content{
+        width:100% ;
+        height: 400px;
+    }
+
+   .list{
+    flex-wrap: wrap;
+   }
+
+    .list ul{
+       width: 23.5%;
+    }
+}
+
+
+
+        
+        
+
+    
+    
+
+
+   
+    
+
